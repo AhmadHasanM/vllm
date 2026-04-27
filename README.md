@@ -1,3 +1,4 @@
+
 # vLLM HR Promotion Assistant — Docker Deployment
 
 vLLM server untuk model Employee Promotion Prediction, dikemas dalam Docker container agar bisa di-deploy ke cloud.
@@ -107,3 +108,4 @@ docker push gcr.io/<project-id>/vllm-hr-promotion:latest
 | `/v1/chat/completions` | POST | Chat completion (OpenAI compatible) |
 | `/v1/completions` | POST | Text completion |
 | `/metrics` | GET | Prometheus metrics |
+
